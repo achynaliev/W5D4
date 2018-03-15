@@ -1,4 +1,4 @@
-Array.uniq = function(arr) {
+Array.prototype.uniq = function(arr) {
   let result = [];
   for(var i = 0; i < arr.length; i++ ) {
     let ele = arr[i];
@@ -9,8 +9,8 @@ Array.uniq = function(arr) {
   return result;
 };
 
-console.log(Array.uniq([12,2,3,43,4,34,4,4,4,4,4,5]));
-
+// console.log(Array.uniq([12,2,3,43,4,34,4,4,4,4,4,5]));
+console.log([1,2,3,3,4].uniq());
 
 Array.twoSum = function(arr) {
   let pairs = [];
