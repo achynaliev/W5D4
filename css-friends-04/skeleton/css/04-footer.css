@@ -1,0 +1,32 @@
+/* PHASE 4: Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 40px;
+  margin-left: 157px;
+  margin-right: 157px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+footer > div {
+  margin: 10px;
+}
+
+footer > div > a{
+  color: #ccc;
+  font-size: 13px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer > div > a:hover{
+  color: black;
+}
+
+p{
+  color: #ccc;
+  font-size: 13px;
+}
